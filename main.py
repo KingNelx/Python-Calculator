@@ -19,7 +19,14 @@ def main():
             input1 = int(input(" Enter 1st number: "))
             break
         except ValueError:
-            print(" Invalid input, try again!")
+            print(" Invalid input, try again! ")
+
+    while True:
+        try:
+            input2 = int(input(" Enter 2nd number: "))
+            break
+        except ValueError:
+            print(" Invalid input, try again! ")
 
 
 if __name__ == '__main__':
