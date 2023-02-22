@@ -28,6 +28,14 @@ def main():
         except ValueError:
             print(" Invalid input, try again! ")
 
+    if choice == 1:
+        result = input1 + input2
+        print(" The sum of: ", input1, "and", input2, "are: ", result)
+
+    if choice == 2:
+        result = input1 - input2
+        print(" The difference of: ", input1, "and", input2, "are", result)
+
 
 if __name__ == '__main__':
     main()
