@@ -40,6 +40,10 @@ def main():
         result = input1 * input2
         print(" The product of: ", input1, "and", input2, "are", result)
 
+    if choice == 4:
+        result = input1 / input2
+        print(" The quotient of: ", input1, "and", input2, "are", result)
+
 
 if __name__ == '__main__':
     main()
